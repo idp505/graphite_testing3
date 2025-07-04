@@ -30,8 +30,6 @@ location "https://download.eclipse.org/releases/2022-12" {
 	org.eclipse.xtext.xtext.generator lazy
 	org.eclipse.xtext.runtime.feature.group lazy
 	org.eclipse.xtend.sdk.feature.group lazy
-	org.eclipse.ui.navigator.resources lazy
-	org.eclipse.e4.ui.css.swt.theme lazy
 	org.apache.commons.logging lazy
 	org.apache.commons.lang3 lazy
 	com.google.inject lazy
