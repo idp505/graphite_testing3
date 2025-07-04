@@ -4,5 +4,5 @@
       <category name="graphite.category"/>
    </feature>
    <category-def name="graphite.category" label="Graphite"/>
-   <repository-reference location="https://download.eclipse.org/releases/2022-12" name="Eclipse Modeling 2022-12" enabled="true" />
+   <repository-reference location="http://download.eclipse.org/epsilon/updates/2.5/" name="Eclipse Epsilon 2.5" enabled="true" />
 </site>
