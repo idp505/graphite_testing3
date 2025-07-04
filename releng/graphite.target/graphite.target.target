@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Graphite Target Platform" sequenceNumber="1751626942">
+<target name="Graphite Target Platform" sequenceNumber="1751627280">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
       <repository location="https://download.eclipse.org/cbi/updates/license"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.eclipse.eef.sdk.feature.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.validation.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.cdo.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.jdt.ui" version="0.0.0"/>
       <unit id="org.eclipse.pde.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sdk" version="0.0.0"/>
@@ -20,19 +21,26 @@
       <unit id="org.eclipse.sdk.ide" version="0.0.0"/>
       <unit id="org.eclipse.egit.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.ocl.all.sdk.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.eef.sdk.feature.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.xsd.sdk.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.common.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.transaction.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.gef.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.gmf.runtime.sdk.feature.group" version="1.15.3.202211041032"/>
+      <unit id="org.eclipse.sirius.specifier.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.sirius.specifier.properties.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sirius.runtime.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sirius.runtime.ide.ui.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sirius.properties.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.xsd.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.m2m.qvt.oml.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.xtext.sdk.feature.group" version="0.0.0"/>
+      <repository location="https://download.eclipse.org/releases/2022-12"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+      <unit id="org.eclipse.xtext.sdk.feature.group" version="2.36.0.v20240825-0714"/>
       <unit id="org.eclipse.xtext.xtext.generator" version="0.0.0"/>
       <unit id="org.eclipse.xtext.runtime.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.xtend.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.apache.commons.logging" version="0.0.0"/>
-      <unit id="org.apache.commons.lang3" version="0.0.0"/>
-      <unit id="com.google.inject" version="0.0.0"/>
-      <repository location="https://download.eclipse.org/releases/2022-12"/>
+      <repository location="https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.36.0/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.acceleo.ui.interpreter.feature.group" version="0.0.0"/>
@@ -51,8 +59,14 @@
       <repository location="http://download.eclipse.org/epsilon/updates/2.5/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.eclipse.emf.emfatic.feature.group" version="0.0.0"/>
-      <repository location="http://download.eclipse.org/emfatic/update"/>
+      <unit id="org.apache.commons.lang3" version="0.0.0"/>
+      <repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+      <unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.mwe2.lib" version="0.0.0"/>
+      <unit id="org.eclipse.emf.mwe.utils" version="0.0.0"/>
+      <repository location="https://download.eclipse.org/modeling/emft/mwe/updates/releases/"/>
     </location>
   </locations>
   <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
