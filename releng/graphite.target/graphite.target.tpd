@@ -5,15 +5,11 @@ location "https://download.eclipse.org/cbi/updates/license" {
 }
 
 location "https://download.eclipse.org/releases/2022-12" {
-	org.eclipse.e4.core.tools.feature.feature.group lazy
 	org.eclipse.eef.sdk.feature.feature.group lazy
 	org.eclipse.emf.sdk.feature.group lazy
 	org.eclipse.emf.validation.sdk.feature.group lazy
 	org.eclipse.emf.cdo.sdk.feature.group lazy
 	org.eclipse.equinox.sdk.feature.group lazy
-	org.eclipse.jdt.feature.group lazy
-	org.eclipse.jdt.apt.ui lazy
-	org.eclipse.jdt.ui lazy
 	org.eclipse.pde.feature.group lazy
 	org.eclipse.platform.feature.group lazy
 	org.eclipse.sdk lazy

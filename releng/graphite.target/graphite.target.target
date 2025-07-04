@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Graphite Target Platform" sequenceNumber="1751626596">
+<target name="Graphite Target Platform" sequenceNumber="1751626942">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
       <repository location="https://download.eclipse.org/cbi/updates/license"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.eef.sdk.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.validation.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.cdo.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.apt.ui" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.ui" version="0.0.0"/>
       <unit id="org.eclipse.pde.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sdk" version="0.0.0"/>
